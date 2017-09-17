@@ -21,6 +21,7 @@ public class LoginCRM {
 	//Select s=new Select(drop);
 	//s.selectByIndex(1);
 	driver.findElement(By.id("loginbtn")).click();
+	System.out.println("Added");
   }
   @BeforeMethod
   public void beforeMethod() {
